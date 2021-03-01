@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Basic Logical Operations"
+category: C++
 ---
 
 The are 3 basic logical operations in C++ i.e. `&&`(AND), `||` (OR) and `!`(NOT).AND means that  if and only if both of the statements are true then the result is true, while OR means that if only one of the statements is true then the result is true and NOT just reverses the result.

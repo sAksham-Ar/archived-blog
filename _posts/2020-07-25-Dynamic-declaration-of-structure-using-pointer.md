@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Dynamic declaration of structure using pointer"
+category: C++
 ---
 
 We can dynamically declare sturrcture is C++ using just new and the name of the structure.To access its inner variables we have to use `->` instead of `.` as it is a pointer ,however we can us `.` with `*` behind the pointer so that  it becomes a structure variable.

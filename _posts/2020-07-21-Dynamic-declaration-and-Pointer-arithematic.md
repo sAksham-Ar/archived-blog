@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Dynamic declaration and Pointer arithematic"
+category: C++
 ---
 
 Dynamic declaration means that we do not give memory during declaration it gets allocated during execution.This is useful for thins like having an array of user inputted size.We do this using new.When pointer is dynamically allocated as an array it points to the 0th index(first element) of the array.If we add an integer to it it will point to that position in the array.After incrementing it by one ,it will point to first index(second element) of the array.if we put `*` only before the pointer then the value at that posiiton is changed.

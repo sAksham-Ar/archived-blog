@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "If and Else"
+category: C++
 ---
 
 The way `if` works in C++ is that we put a condition in bracket  if that is satisfied the code in `if` executes otherwise if `else` is there its code executes.If there is no `else` present then nothing happens.Relational operators in C++ are `>`(greater than),`<`(less than),`>=`(greater than or equal to),`<=`(less than or equal to),`==`(equal to),`!=`(not equal to).

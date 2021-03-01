@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Structures"
+category: C++
 ---
 
 A structure can hold multiple variables similar to an array but while array can only hold one type of variables, structures can hold many types of variables including arrays.You can access inner elements using the `.` operator.Here we use the library `math.h` for the function `sqrt` (square root function) and 'pow' (power function).I use structures and the distance function to calculate distance between two points.The `2` in `pow` means raised to power 2.

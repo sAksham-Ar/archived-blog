@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Taking input from user"
+category: C++
 ---
 
 Today we will learn how to take input from user in C++.We will do this using `cin` in iostream library.`cin` takes input from keyboard and stores it in a variable like num.`\n` is used for going to next line so that output looks nice.

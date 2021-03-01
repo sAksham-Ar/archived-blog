@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Basic Arithematic operations in C++"
+category: C++
 ---
 
 There are 5 basic arithematic operations in C++:

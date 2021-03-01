@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  " Making a basic calculator using Switch"
+category: C++
 ---
 
 Switch in C++ is basically like a menu.If the variable in the switch bracket is equal to the any case then the code in that specific case and subsequent cases gets executed until it encounters a `break`.If none of the cases match then  default statement gets executed.The `(float)y` is to covert y to type float so decimal answers will be printed.

@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Linked lists"
+category: C++
 ---
 
 In link list a structure is declared as head and it has a next pointer which points to next item in the list and similarly all items have a next pointer.The next pointer of the last element points to `NULL`.The program goes as long as user does not input `n`.The user has two options whether to insert or delete from the list.In insert we declare a temporary variable `temp` which contains the number to insert which is done by putting `temp->next=head` and `head=temp` which means that now head points to temp and temp points to the element which was previously head.Delete is done by simply putting `head` equal to its next element.

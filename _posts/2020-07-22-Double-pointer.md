@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Double pointer"
+category: C++
 ---
 
 We use double pointer or pointer to a pointer for things like dynamically declaring 2d arrays where we first dynamically declare its rows as 1d arrays and then for each row we declare its columns.The name of pointer points to address of the first row or to the pointer that points to first element of the first row.One `*` with the pointer points to the address of the first element of the first row and with two `*` it points to its value.
