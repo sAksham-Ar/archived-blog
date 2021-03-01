@@ -1,0 +1,104 @@
+navbar_entries:
+  - title: about
+    url: about
+
+  - title: blog
+    url: blog
+
+  - title: website
+    url: ""
+
+project_entries:
+  - title: Prof_List
+    url: https://github.com/sAksham-Ar/Prof_List
+    desc: A python script that gets Professors data from https://inspirehep.net/ and saves them as csv using selenium. 
+
+  - title: song-tune
+    url: https://github.com/sAksham-Ar/song-tune
+    desc: An Alexa skill to play songs from Youtube.
+
+  - title: codeify
+    url: https://github.com/sAksham-Ar/codeify
+    desc:  A Discord bot that automatically detects code and formats it and then replies.
+
+  - title: ytstreamer
+    url: https://github.com/sAksham-Ar/ytstreamer
+    desc: A python script that takes a channel name outputs its videos then when selected plays it on vlc media player. 
+
+  - title: cricketpy
+    url: https://github.com/sAksham-Ar/cricketpy
+    desc: View cricket scores,commentary and scorecard from the command line.
+
+  - title: criapi
+    url: https://github.com/sAksham-Ar/criapi
+    desc: An API to get cricket scores ,scorecards and commentary in python. 
+
+old_project_entries:
+  - title: microrequests
+    url: http://www.abhinav.co/microrequests
+    desc: A Python library to consume microservices more efficiently
+
+  - title: blockr
+    url: http://www.abhinav.co/blockr
+    desc: A CLI tool to help you easily block and unblock websites
+
+  - title: moonwalk
+    url: https://github.com/abhinavs/moonwalk
+    desc: A fast and minimalist Jekyll blog theme with clean dark mode
+
+  - title: humangous
+    url: http://www.humangous.co
+    desc: The better people know you, the better they collaborate
+
+  - title: avnee
+    url: http://www.avnee.co
+    desc: New age kids require new ways of parenting
+
+  - title: year progress
+    url: https://year-progress.herokuapp.com/
+    desc: A bot written for slack that shows current year in a progress bar
+    highlight: archived
+
+footer_entries:
+  - title: saksham's homepage
+    url: http://localhost:4000/
+
+  - title: github
+    url: https://github.com/sAksham-Ar
+
+  - title: feed
+    url: feed.xml
+
+misc_entries:
+  - title: this is an example vertical list
+    url: false
+
+  - title: you can show or hide using a boolean flag in _config.yml
+    url: false
+
+  - title: and you can add data in _data/home.yml
+    url: false
+
+  - title: Blog posts
+    post_list: true
+    url: false
+
+  - title: moonwalk on the Internet
+    url: false
+    entries:
+      - title: on Github
+        url: https://github.com/abhinavs/moonwalk
+
+      - title: originally built for abhinav's homepage
+        url: http://www.abhinav.co
+
+      - title: this list is scalable and can be nested
+        url: false
+        entries:
+          - title: this is nested inside a nested list
+            url: false
+
+          - title: it is easy to use, see _data/home.yml to see how to configure it.
+            url: false
+
+
