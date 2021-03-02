@@ -20,7 +20,7 @@ int main()
     {
         cin>>a[i];
     }
-    cout<<"The fifth element is:"<<*(a+4)<<''\n";
+    cout<<"The fifth element is:"<<*(a+4)<<"\n";
     cout<<"The fifth element plus 5 is:"<<*(a+4)+5<<"\n";
     a++;
     cout<<"The second element is:"<<*a;
