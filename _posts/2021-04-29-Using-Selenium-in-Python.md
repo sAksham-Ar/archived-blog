@@ -4,7 +4,7 @@ title:  "Using Selenium in Python"
 category: Python
 ---
 
-Today we are going to learn how to automate your browser using Selenium in Python.Today we will go to Youtube search something and store the results as JSON.Scraping Youtube results is not possible using normal webscraping as it uses as JS framework.
+Today we are going to learn how to automate your browser using Selenium in Python.Today we will go to Youtube search something and store the results as JSON.Scraping Youtube results is not possible using normal webscraping as it uses a JS framework.
 
 ## Requirements
 
