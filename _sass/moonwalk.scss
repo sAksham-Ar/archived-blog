@@ -5,14 +5,14 @@ html { height: 100%; }
 
 body {
   font-family:  "Inter", -apple-system, "avenir next", avenir, roboto, noto, ubuntu, "helvetica neue", helvetica, sans-serif;
-  font-size: 1.0rem;
-  line-height: 2;
+  font-size: 1.3rem;
+  line-height: 1.1;
   margin: 0;
   min-height: 100%;
 }
 pre, code {
   font-family: "Anonymous Pro", "Courier New", monospace;
-  font-size: 0.9rem;
+  font-size: 1.1rem;
 }
 
 h2, h3, h4, h5 { margin-top: 1.5em; }
@@ -76,10 +76,10 @@ html {
 // -------------- THEME SWITCHER -------------- //
 @mixin dark-appearance {
   html, body  {
-        --headings: rgb(228, 57, 57);
-        --links: #ff7b7b;
+        --headings: rgb(209, 205, 199);
+        --links:rgb(82, 177, 255);
         --highlight: #fc8484;
-        --bg: black;
+        --bg: rgb(24, 26, 27);
         --bg-secondary: #101214;
         --text: #adb5bd;
         --code-text: #91A7FF;
@@ -178,7 +178,7 @@ p code, li code {
   font-weight: bold;
 }
 .post-title {
-  margin-bottom:-1.5rem;
+  margin-bottom:-1rem;
 }
 .project-title {
   margin-bottom: 0.8rem;
